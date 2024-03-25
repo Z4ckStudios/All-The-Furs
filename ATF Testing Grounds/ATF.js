@@ -6,5 +6,5 @@ const indexTimerInterval = setInterval(indexTimerInt, 1000);
 function indexTimerInt() {
     indexTimer++
 
-    if(indexTimer > 2) {location.replace("/All-The-Furs/Home");}
+    if(indexTimer > 2) {location.replace("/ATF Testing Grounds/Home.html");}
 }

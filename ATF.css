@@ -1,0 +1,247 @@
+@font-face {
+    font-family: "whocats";
+    src: url(/whocats/Whocats.ttf) format(truetype);
+}
+@font-face {
+    font-family: "kittenpaws";
+    src: url(/kitten_paws/KittenPaws-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family: "takecoffee";
+    src: url(/take_coffee/Take\ Coffee.ttf) format(truetype);
+}
+body
+{
+    margin: none;
+    padding: none;
+    background: rgb(15, 10, 50);
+    overflow-x: visible;
+    user-select: none;
+}
+.ATFLinkingWrapper
+{
+    transition: all;
+    transition-duration: 1s;
+}
+.LinkBackground
+{
+    position: absolute;
+    transform: translate(-5%, -100%);
+    width: 104.7%;
+    font-size: 75px;
+    background: rgb(65, 60, 255);
+    color: rgb(65, 60, 255);
+}
+.ATFIndexLogo
+{
+    position: absolute;
+    transform: translate(0%, -32.5%);
+}
+.ATFColon
+{
+    position: absolute;
+    transform: translate(2250%, -80%);
+    font-size: 50px;
+    font-family: "whocats";
+    color: rgb(65, 60, 150);
+}
+.WikiLink
+{
+    position: absolute;
+    transform: translate(170%, -72.5%);
+    font-size: 50px;
+    text-align: center;
+    width: 17.5%;
+    font-family: "whocats";
+    color: rgb(65, 60, 150);
+}
+.WikiLink:hover
+{
+    cursor: pointer;
+    border-bottom: 2px solid white;
+}
+.AboutLink
+{
+    position: absolute;
+    transform: translate(291.5%, -72.5%);
+    font-size: 50px;
+    text-align: center;
+    width: 18%;
+    font-family: "whocats";
+    color: rgb(65, 60, 150);
+}
+.AboutLink:hover
+{
+    cursor: pointer;
+    border-bottom: 2px solid white;
+}
+.InfoLink
+{
+    position: absolute;
+    transform: translate(435%, -72.5%);
+    font-size: 50px;
+    text-align: center;
+    width: 17.5%;
+    font-family: "whocats";
+    color: rgb(65, 60, 150);
+}
+.InfoLink:hover
+{
+    cursor: pointer;
+    border-bottom: 2px solid white;
+}
+.FOTDParam
+{
+    position: absolute;
+    top: 7.5%;
+    left: 2%;
+    color: white;
+    font-family: "kittenpaws";
+    font-size: 50px;
+}
+.FOTDImage
+{
+    position: absolute;
+    top: 25%;
+    left: 3.5%;
+    border: 2px solid white;
+    image-rendering: pixelated;
+}
+.FOTDBox
+{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    border: 2px solid white;
+    width: 95.5%;
+    height: 750px;
+}
+.FurName
+{
+    position: absolute;
+    top: 74%;
+    left: 3.75%;
+    color: rgb(65, 60, 255);
+    width: 400px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "kittenpaws";
+    text-wrap: wrap;
+    border-bottom: 2px dashed rgb(35, 30, 100);
+}
+.AboutFur
+{
+    position: absolute;
+    top: 21%;
+    left: -7%;
+    color: rgb(105, 100, 255);
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-family: "kittenpaws";
+}
+.AboutFurBul
+{
+    position: absolute;
+    top: 32.5%;
+    left: 33%;
+    color: rgb(45, 40, 125);
+    text-wrap: wrap;
+    width: 32.5%;
+    font-size: 35px;
+    line-height: 30px;
+    font-family: "kittenpaws";
+}
+.AboutFurBul2
+{
+    position: absolute;
+    top: 32.5%;
+    left: 66%;
+    color: rgb(45, 40, 125);
+    text-wrap: wrap;
+    width: 32.5%;
+    font-size: 35px;
+    line-height: 30px;
+    font-family: "kittenpaws";
+}
+.FOTDImportantInfo
+{
+    position: absolute;
+    top: 120%;
+    left: 2%;
+    color: rgb(45, 40, 125);
+    text-wrap: wrap;
+    width: 95%;
+    font-size: 35px;
+    line-height: 37.5px;
+    font-family: "takecoffee";
+    list-style: none;
+}
+.FurSocials
+{
+    position: relative;
+    transform: translate(0%, 120%);
+    color: rgb(105, 100, 255);
+    font-size: 30px;
+    line-height: 37.5px;
+    font-family: "kittenpaws";
+}
+.BriefDescriptionBox
+{
+    position: absolute;
+    top: 81%;
+    left: 3.5%;
+    border: 2px solid white;
+    width: 92.25%;
+    height: 31%;
+}
+.BriefDescription
+{
+    position: absolute;
+    top: 85%;
+    left: 3%;
+    color: rgb(105, 100, 255);
+    text-wrap: wrap;
+    width: 94%;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: "kittenpaws";
+    list-style: none;
+}
+.YTLogo
+{
+    transform: translate(0%, 25%);
+}
+.YTLogo:hover
+{
+    cursor: pointer;
+}
+.TwitchLogo
+{
+    transform: translate(0%, 25%);
+}
+.TwitchLogo:hover
+{
+    cursor: pointer;
+}
+.TwitterLogo
+{
+    transform: translate(0%, 15%);
+}
+.TwitterLogo:hover
+{
+    cursor: pointer;
+}
+::-webkit-scrollbar
+{
+    background: rgb(65, 60, 255);
+}
+::-webkit-scrollbar-thumb
+{
+    background: rgb(45, 40, 125);
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background: rgb(35, 30, 100);
+    border: none;
+}

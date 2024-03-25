@@ -6,5 +6,5 @@ const indexTimerInterval = setInterval(indexTimerInt, 1000);
 function indexTimerInt() {
     indexTimer++
 
-    if(indexTimer > 2) {location.replace("ATF.html");}
+    if(indexTimer > 2) {location.replace("ATF/ATF.html");}
 }

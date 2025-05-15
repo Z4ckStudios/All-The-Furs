@@ -1,0 +1,200 @@
+@font-face {
+    font-family: "whocats";
+    src: url("/fonts/take_coffee/Take Coffee.ttf") format(truetype);
+}
+@font-face {
+    font-family: "kittenpaws";
+    src: url("/fonts/kitten_paws/KittenPaws-Regular.ttf") format(truetype);
+}
+@font-face {
+    font-family: "takecoffee";
+    src: url("/fonts/whocats/Whocats.ttf") format(truetype);
+}
+body {
+    margin: none;
+    padding: none;
+    background: rgb(15, 10, 50);
+    overflow-x: hidden;
+}
+#LinkBackground {
+    position: fixed;
+    top: 6.7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(65, 60, 255);
+    color: rgb(65, 60, 255);
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#ATFIndexLogo {
+    position: relative;
+    margin-left: 1%;
+    transform: translateY(15%);
+}
+#ATFColon {
+    position: relative;
+    margin-right: 5%;
+    font-size: 3.5vw;
+    font-family: "whocats";
+    color: rgb(65, 60, 150);
+}
+#WikiLink {
+    position: relative;
+    margin-right: 5%;
+    font-size: 3.5vw;
+    font-family: "whocats";
+    color: rgb(65, 60, 150);
+}
+#AboutLink {
+    position: relative;
+    margin-right: 5%;
+    font-size: 3.5vw;
+    font-family: "whocats";
+    color: rgb(65, 60, 150);
+}
+#InfoLink {
+    position: relative;
+    font-size: 3.5vw;
+    font-family: "whocats";
+    color: rgb(65, 60, 150);
+}
+#FOTDText {
+    position: absolute;
+    top: 7.5%;
+    left: 2%;
+    color: white;
+    font-family: "kittenpaws";
+    font-size: 3.5vw;
+}
+#FOTDBox {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid white;
+    width: 92.4%;
+    padding: 20px;
+    height: auto;
+    overflow: hidden;
+}
+#FOTDImage {
+    position: relative;
+    border: 2px solid white;
+    image-rendering: pixelated;
+    width: 400px;
+    height: 400px;
+}
+#FurName {
+    position: relative;
+    margin-top: 1%;
+    margin-bottom: 2.5%;
+    margin-left: 0.25%;
+    color: rgb(65, 60, 255);
+    font-size: 2vw;
+    font-family: "kittenpaws";
+    border-bottom: 2px dashed rgb(35, 30, 100);
+    width: 400px;
+    text-align: center;
+}
+#AboutFur {
+    position: absolute;
+    margin-left: 1%;
+    color: rgb(105, 100, 255);
+    font-size: 2.5vw;
+    font-family: "kittenpaws";
+}
+#AboutFurBul {
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 1.5%;
+    width: 30%;
+}
+#AboutFurBul2 {
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 32%;
+    width: 30%;
+}
+#FurLi {
+    line-height: normal;
+    border-bottom: 35px solid rgb(15, 10, 50);
+    color: rgb(45, 40, 125);
+    font-size: 2.5vw;
+    font-family: "kittenpaws";
+    background: none;
+}
+#FurSocials {
+    position: relative;
+    color: rgb(105, 100, 255);
+    font-size: 2vw;
+    line-height: 37px;
+    font-family: "kittenpaws";
+}
+#YTLogo {
+    transform: translateY(25%);
+}
+#TwitchLogo {
+    transform: translateY(25%);
+}
+#TwitterLogo {
+    transform: translateY(25%);
+}
+#BriefDescription {
+    position: relative;
+    color: rgb(105, 100, 255);
+    text-wrap: wrap;
+    width: 94%;
+    font-size: 2vw;
+    line-height: 30px;
+    font-family: "kittenpaws";
+    list-style: none;
+}
+#FurDesc {
+    position: relative;
+    margin-bottom: 2.5%;
+    font-family: "takecoffee";
+    font-size: 1.7vw;
+    text-wrap: wrap;
+    padding: 10px;
+    text-indent: 5%;
+    color: rgb(55, 50, 150);
+    line-height: normal;
+}
+#FOTDImportantInfo {
+    position: relative;
+    margin-top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(45, 40, 125);
+    font-size: 2.4vw;
+    font-family: "takecoffee";
+    text-wrap: wrap;
+    width: 97%;
+}
+#fnsExtras {
+    color: rgb(15, 10, 100);
+}
+#OZSTwitterL1 {
+    font-family: "kittenpaws";
+}
+#OWoN_Com #OZSTwitterL2 {
+    font-family: "takecoffee";
+}
+#OZxOW {
+    border-bottom: 60px solid rgb(15, 10, 50);
+}
+.OZSxOWoN {
+    text-decoration: underline;
+    color: rgb(100, 20, 150);
+}
+::-webkit-scrollbar {
+    background: rgb(65, 60, 255);
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(45, 40, 125);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(35, 30, 100);
+    border: none;
+}

@@ -1,0 +1,209 @@
+@font-face {
+    font-family: "whocats";
+    src: url("/fonts/take_coffee/Take Coffee.ttf") format(truetype);
+}
+@font-face {
+    font-family: "kittenpaws";
+    src: url("/fonts/kitten_paws/KittenPaws-Regular.ttf") format(truetype);
+}
+@font-face {
+    font-family: "takecoffee";
+    src: url("/fonts/whocats/Whocats.ttf") format(truetype);
+}
+body {
+    margin: none;
+    padding: none;
+    background: rgb(15, 10, 50);
+    overflow-x: hidden;
+    user-select: none;
+}
+#LinkBackground {
+    position: fixed;
+    top: 6.7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(65, 60, 255);
+    color: rgb(65, 60, 255);
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#ATFIndexLogo {
+    position: relative;
+    margin-left: 1%;
+    transform: translateY(15%);
+}
+#ATFColon {
+    position: relative;
+    margin-right: 5%;
+    font-size: 3.5vw;
+    font-family: "whocats";
+    color: rgb(65, 60, 150);
+}
+#HomeLink {
+    position: relative;
+    margin-right: 5%;
+    font-size: 3.5vw;
+    font-family: "whocats";
+    color: rgb(65, 60, 150);
+}
+#AboutLink {
+    position: relative;
+    margin-right: 5%;
+    font-size: 3.5vw;
+    font-family: "whocats";
+    color: rgb(65, 60, 150);
+}
+#InfoLink {
+    position: relative;
+    font-size: 3.5vw;
+    font-family: "whocats";
+    color: rgb(65, 60, 150);
+}
+#FurListA {
+    position: absolute;
+    top: 340px;
+    left: 180px;
+    transform: translate(-50%, -50%);
+    text-wrap: nowrap;
+    width: 22.5%;
+    height: 25%;
+}
+#FurListA span {
+    background: rgb(65, 60, 255);
+    color: rgb(15, 10, 50);
+    font-family: takecoffee;
+    font-size: 20px;
+    padding-left: 5%;
+    border: 2px solid white;
+    height: 25%;
+    align-content: center;
+}
+#FurListH {
+    position: absolute;
+    top: 412px;
+    left: 525px;
+    transform: translate(-50%, -50%);
+    text-wrap: nowrap;
+    width: 22.5%;
+    height: 25%;
+}
+#FurListH span {
+    background: rgb(65, 60, 255);
+    color: rgb(15, 10, 50);
+    font-family: takecoffee;
+    font-size: 20px;
+    padding-left: 5%;
+    border: 2px solid white;
+    height: 25%;
+    align-content: center;
+}
+#FurListN {
+    position: absolute;
+    top: 412px;
+    left: 875px;
+    transform: translate(-50%, -50%);
+    text-wrap: nowrap;
+    width: 22.5%;
+    height: 25%;
+}
+#FurListN span {
+    background: rgb(65, 60, 255);
+    color: rgb(15, 10, 50);
+    font-family: takecoffee;
+    font-size: 20px;
+    padding-left: 5%;
+    border: 2px solid white;
+    height: 25%;
+    align-content: center;
+}
+#FurListT {
+    position: absolute;
+    top: 340px;
+    left: 1220px;
+    transform: translate(-50%, -50%);
+    text-wrap: nowrap;
+    width: 22.5%;
+    height: 25%;
+}
+#FurListT span {
+    background: rgb(65, 60, 255);
+    color: rgb(15, 10, 50);
+    font-family: takecoffee;
+    font-size: 20px;
+    padding-left: 5%;
+    border: 2px solid white;
+    height: 25%;
+    align-content: center;
+}
+#FeaturedWrapper {
+    position: absolute;
+    top: 19%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+}
+#FFText {
+    font-family: kittenpaws;
+    font-size: 40px;
+    color: white;
+}
+#FFBoxes {
+    position: relative;
+    margin-top: 11.5%;
+    text-wrap: nowrap;
+
+    animation: ScrollAnim infinite;
+    animation-duration: 30s;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+#FFBoxes img {
+    border: 2px solid white;
+    margin-left: 1%;
+    width: 400px;
+    height: 400px;
+    image-rendering: pixelated;
+}
+#FFCodes {
+    position: relative;
+    margin-top: 1%;
+    text-wrap: nowrap;
+
+    animation: ScrollAnim infinite;
+    animation-duration: 30s;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+#FFCodes span {
+    font-size: 30px;
+    color: white;
+    font-family: takecoffee;
+}
+@keyframes ScrollAnim {
+    from{left: 5%;}
+    to{left: -60%;}
+}
+#FurListA {
+    display: none;
+}
+#FurListH {
+    display: none;
+}
+#FurListN {
+    display: none;
+}
+#FurListT {
+    display: none;
+}
+::-webkit-scrollbar {
+    background: rgb(65, 60, 255);
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(45, 40, 125);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(35, 30, 100);
+    border: none;
+}

@@ -1,14 +1,14 @@
 @font-face {
     font-family: "whocats";
-    src: url("/fonts/take_coffee/Take Coffee.ttf") format(truetype);
+    src: url("../fonts/take_coffee/Take Coffee.ttf") format(truetype);
 }
 @font-face {
     font-family: "kittenpaws";
-    src: url("/fonts/kitten_paws/KittenPaws-Regular.ttf") format(truetype);
+    src: url("../fonts/kitten_paws/KittenPaws-Regular.ttf") format(truetype);
 }
 @font-face {
     font-family: "takecoffee";
-    src: url("/fonts/whocats/Whocats.ttf") format(truetype);
+    src: url("../fonts/whocats/Whocats.ttf") format(truetype);
 }
 body {
     margin: none;

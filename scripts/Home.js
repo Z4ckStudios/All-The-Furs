@@ -83,7 +83,7 @@ WikiLink.addEventListener("click",
 function() {
 
     localStorage.setItem("CurrentPos", "Wiki");
-    location.replace("Wiki.html");
+    location.replace("index.html");
 })
 WikiLink.addEventListener("mouseover",
 function() {

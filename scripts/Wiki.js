@@ -127,7 +127,7 @@ HomeLink.addEventListener("click",
 function() {
 
     localStorage.setItem("CurrentPos", "Home");
-    location.replace("Home.html");
+    location.replace("index.html");
 })
 HomeLink.addEventListener("mouseover",
 function() {
